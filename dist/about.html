@@ -1,0 +1,605 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>星创智融</title>
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+<meta name="msapplication-navbutton-color" content="#4285f4">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link href="css/iconfont.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="js/jquery.min.js"></script>
+<!--[if lt IE 9]>
+    <style>
+        .his-list .item1 .dot { margin-top: 65px; }
+        .his-list .item2 .dot { margin-bottom: 65px; }
+    </style>
+<![endif]-->
+</head>
+<body>
+<div class="header clearfix">
+    <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="">
+        <div class="txts">
+            <h1 class="ch">项目管理中心</h1>
+            <h2 class="en">Project Management Center</h2>
+        </div>
+    </a>
+    <div class="r">
+        <ul class="nav">
+            <li><a href="index.html">首页</a>
+                <div class="tnav"></div>
+            </li>
+            <li><a href="about.html" class="act">关于我们</a>
+                <div class="tnav">
+                    <div class="b">
+                        <a href="about.html?#ab1">星创智融</a>
+                        <a href="about.html?#ab2">项目管理中心</a>
+                        <a href="about.html?#ab3">领导致辞</a>
+                        <a href="about.html?#ab4">发展历程</a>
+                        <a href="about.html?#ab5">荣誉资质</a>
+                    </div>
+                </div>
+            </li>
+            <li><a href="news.html">新闻中心</a>
+                <div class="tnav">
+                    <div class="b">
+                        <a href="news1.html">公司新闻</a>
+                        <a href="news1.html">网站公告</a>
+                    </div>
+                </div>
+            </li>
+            <li><a href="bus.html">业务范围</a>
+                <div class="tnav">
+                    <div class="b">
+                        <a href="bus1.html">市政施工</a>
+                        <a href="bus2.html">桥梁施工</a>
+                        <a href="bus3.html">隧道施工</a>
+                        <a href="bus4.html">文保施工</a>
+                    </div>
+                </div>
+            </li>
+            <li><a href="pro.html">项目展示</a>
+                <div class="tnav">
+                    <div class="b">
+                        <a href="pro1.html">市政施工</a>
+                        <a href="pro1.html">桥梁施工</a>
+                        <a href="pro1.html">隧道施工</a>
+                        <a href="pro1.html">文保施工</a>
+                    </div>
+                </div>
+            </li>
+            <li><a href="cul.html">企业文化</a>
+                <div class="tnav">
+                    <div class="b">
+                        <a href="cul1.html">企业文化</a>
+                        <a href="cul2.html">感恩企业</a>
+                    </div>
+                </div>
+            </li>
+            <li><a href="job.html">人力资源</a>
+                <div class="tnav">
+                    <div class="b">
+                        <a href="job.html?#job1">用人理念</a>
+                        <a href="job.html?#job2">招聘职位</a>
+                    </div>
+                </div>
+            </li>
+            <li><a href="cta.html">联系我们</a>
+                <div class="tnav">
+                    <div class="b">
+                        <a href="cta.html?#cta1">联系方式</a>
+                        <a href="cta.html?#cta2">投诉建议</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="search">
+            <p class="icon iconfont icon-sousuo btn1"></p>
+            <div class="b">
+                <input type="text" class="inp" name="">
+                <a href="search.html" class="icon iconfont icon-sousuo btn2"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="menu-handler">
+    <span class="burger burger-1 mtrans"></span>
+    <span class="burger burger-2 mtrans"></span>
+    <span class="burger burger-3 mtrans"></span>
+</div>
+<div class="menuBox">
+    <dl class="navMobile">
+        <dd><a href="index.html">首页</a></dd>
+        <dd><a href="about.html">关于我们</a>
+            <div class="mtv">
+                <a href="about.html?#ab1">星创智融</a>
+                <a href="about.html?#ab2">项目管理中心</a>
+                <a href="about.html?#ab3">领导致辞</a>
+                <a href="about.html?#ab4">发展历程</a>
+                <a href="about.html?#ab5">荣誉资质</a>
+            </div>
+        </dd>
+        <dd><a href="news.html">新闻中心</a>
+            <div class="mtv">
+                <a href="news1.html">公司新闻</a>
+                <a href="news2.html">网站公告</a>
+            </div>
+        </dd>
+        <dd><a href="bus.html">业务范围</a>
+            <div class="mtv">
+                <a href="bus1.html">市政施工</a>
+                <a href="bus2.html">桥梁施工</a>
+                <a href="bus3.html">隧道施工</a>
+                <a href="bus4.html">文保施工</a>
+            </div>
+        </dd>
+        <dd><a href="pro.html">项目展示</a>
+            <div class="mtv">
+                <a href="pro1.html">市政施工</a>
+                <a href="pro1.html">桥梁施工</a>
+                <a href="pro1.html">隧道施工</a>
+                <a href="pro1.html">文保施工</a>
+            </div>
+        </dd>
+        <dd><a href="cul.html">企业文化</a>
+            <div class="mtv">
+                <a href="cul1.html">企业文化</a>
+                <a href="cul2.html">感恩企业</a>
+            </div>
+        </dd>
+        <dd><a href="job.html">人力资源</a>
+            <div class="mtv">
+                <a href="job.html?#job1">用人理念</a>
+                <a href="job.html?#job2">招聘职位</a>
+            </div>
+        </dd>
+        <dd><a href="cta.html">联系我们</a>
+            <div class="mtv">
+                <a href="cta.html?#cta1">联系方式</a>
+                <a href="cta.html?#cta2">投诉建议</a>
+            </div>
+        </dd>
+    </dl>
+    <br><br><br><br>
+</div>
+
+<div class="menuBlack"></div>
+<div class="mtop"></div>
+
+<div class="pbanner scroll-animation">
+    <div class="psfixbg" style="background-image: url(img/abfixbg.jpg);"></div>
+    <div class="pic"><img src="images/about.png" alt=""></div>
+    <div class="txts tac">
+        <div class="tb">
+            <div class="tbc">
+                <h1 class="ch am-fiu">关于我们</h1>
+                <h2 class="en am-fiu am-delay-1">About Us</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="ab-nav">
+        <a href="about.html#ab1">星创智融</a>
+        <a href="about.html#ab2">项目管理中心</a>
+        <a href="about.html#ab3">领导致辞</a>
+        <a href="about.html#ab4">发展历程</a>
+        <a href="about.html#ab5">荣誉资质</a>
+    </div>
+    
+    <div class="ab ab4" id="ab1">
+        <div class="pw tac">
+            <div class="cta-title">
+                <h1 class="ch fwb">星创智融</h1>
+                <h2 class="en fsi ttu">si-trophy</h2>
+            </div>
+            <div class="ab-tx">
+                四川星创智融股权投资基金管理有限公司（以下简称星创智融）<br>
+于2016年1月成立，注册资本10000万元，主要受托从事投资管理及相关咨询服务，<br>
+深耕于政府工程资产管理、股权投资、项目融资和PPP项目策划运营管理等业务，<br>
+致力于以金融为纽带、实现基础建设领域的全产业链资源整合。
+            </div>
+            <div class="more"><a href="about1.html" class="ix-cul-more">查看更多</a></div>
+        </div>
+    </div>
+    
+    <div class="ab ab5 fixbg" style="background-image: url(img/abfixbg1.jpg);">
+        <div class="cp-box">
+            <div class="pw tac" id="ab2">
+                <div class="cta-title">
+                    <h1 class="ch fwb">项目管理中心</h1>
+                    <h2 class="en fsi ttu">Project Management Center</h2>
+                </div>
+                <div class="ab-tx">
+                    四川星创智融股权投资基金管理有限公司项目管理中心<br>
+前身为2008年4月成立的四川超越建筑劳务有限公司，位于成都市高新区天府大道北段环球中心<br>
+公司下设六个部：隧道部、桥梁 部、房建部、市政部、文物保护部、设备租赁部。
+                </div>
+                <div class="more"><a href="about2.html" class="ix-cul-more">查看更多</a></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="ab ab6" id="ab3">
+        <div class="pw rel ab-leader scapic clearfix">
+            <div class="txts">
+                <div class="cta-title">
+                    <h1 class="ch fwb">领导致辞</h1>
+                    <h2 class="en fsi ttu">Leader Speech</h2>
+                </div>
+                <div class="ab-tx">项目管理中心是一支朝气蓬勃、工作严谨、技术一流、团结协作、素质优秀的建筑类施工管理专业团队。中心整合了集造价师事务所、会计师事务所、律师事务所、保险公司、施工企业等28家行业精英，为做优质项目夯实了基础。</div>
+                <div class="more"><a href="about-ajax.html" class="ix-cul-more ly-btn">查看更多</a></div>
+            </div>
+            <div class="picbox"><div class="pai"><img src="img/ab_i4.jpg" alt=""></div></div>
+        </div>
+    </div>
+    
+    <div class="ab ab7 fixbg" style="background-image: url(img/abfixbg2.jpg);" id="ab4">
+        <div class="cta-title white tac pw">
+            <h1 class="ch fwb">发展历程</h1>
+            <h2 class="en fsi ttu">development history</h2>
+        </div>
+        <div class="his-list his-arrow u-slick">
+            <div class="item item1">
+                <div class="ma">
+                    <div class="his-c clearfix">
+                        <div class="pic"><img src="img/ab_i6.jpg" alt=""></div>
+                        <div class="txts">
+                            <p class="date"><span class="c">2012.</span>04.</p>
+                            <div class="tx">公司承建的柏孜克里克石窟抢险加固工程荣获“2011年度全国十大文物维修工程”</div>
+                        </div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="item item2">
+                <div class="ma">
+                    <div class="his-c clearfix">
+                        <div class="pic"><img src="img/ab_i6.jpg" alt=""></div>
+                        <div class="txts">
+                            <p class="date"><span class="c">2012.</span>04.</p>
+                            <div class="tx">公司成立，下设桥梁部、隧道部、房建部、文保部、租赁部</div>
+                        </div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="item item1">
+                <div class="ma">
+                    <div class="his-c clearfix">
+                        <div class="pic"><img src="img/ab_i6.jpg" alt=""></div>
+                        <div class="txts">
+                            <p class="date"><span class="c">2012.</span>04.</p>
+                            <div class="tx">公司成立，下设桥梁部、隧道部、房建部、文保部、租赁部</div>
+                        </div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="item item2">
+                <div class="ma">
+                    <div class="his-c clearfix">
+                        <div class="pic"><img src="img/ab_i6.jpg" alt=""></div>
+                        <div class="txts">
+                            <p class="date"><span class="c">2012.</span>04.</p>
+                            <div class="tx">公司成立，下设桥梁部、隧道部、房建部、文保部、租赁部</div>
+                        </div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="item item1">
+                <div class="ma">
+                    <div class="his-c clearfix">
+                        <div class="pic"><img src="img/ab_i6.jpg" alt=""></div>
+                        <div class="txts">
+                            <p class="date"><span class="c">2012.</span>04.</p>
+                            <div class="tx">公司成立，下设桥梁部、隧道部、房建部、文保部、租赁部</div>
+                        </div>
+                        <div class="dot"></div>   
+                    </div>
+                </div>
+            </div>
+            <div class="item item2">
+                <div class="ma">
+                    <div class="his-c clearfix">
+                        <div class="pic"><img src="img/ab_i6.jpg" alt=""></div>
+                        <div class="txts">
+                            <p class="date"><span class="c">2012.</span>04.</p>
+                            <div class="tx">公司成立，下设桥梁部、隧道部、房建部、文保部、租赁部</div>
+                        </div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="item item1">
+                <div class="ma">
+                    <div class="his-c clearfix">
+                        <div class="pic"><img src="img/ab_i6.jpg" alt=""></div>
+                        <div class="txts">
+                            <p class="date"><span class="c">2012.</span>04.</p>
+                            <div class="tx">公司成立，下设桥梁部、隧道部、房建部、文保部、租赁部</div>
+                        </div>
+                        <div class="dot"></div>   
+                    </div>
+                </div>
+            </div>
+            <div class="item item2">
+                <div class="ma">
+                    <div class="his-c clearfix">
+                        <div class="pic"><img src="img/ab_i6.jpg" alt=""></div>
+                        <div class="txts">
+                            <p class="date"><span class="c">2012.</span>04.</p>
+                            <div class="tx">公司成立，下设桥梁部、隧道部、房建部、文保部、租赁部</div>
+                        </div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="ab ab8" id="ab5">
+        <div class="pw">
+            <div class="cta-title">
+                <h1 class="ch fwb">荣誉资质</h1>
+                <h2 class="en fsi ttu">honor</h2>
+            </div>
+            <div class="honor-list his-arrow u-slick">
+                <div class="item"><a href="javascript:void(0);" data-img-num="1" data-img="img/ab_i7.jpg">
+                    <div class="pai"><img src="img/ab_i7.jpg" alt=""><p class="icon iconfont icon-fangdajing"></p></div>
+                </a></div>
+                <div class="item"><a href="javascript:void(0);" data-img-num="2" data-img="img/ab_i8.jpg">
+                    <div class="pai"><img src="img/ab_i8.jpg" alt=""><p class="icon iconfont icon-fangdajing"></p></div>
+                </a></div>
+                <div class="item"><a href="javascript:void(0);" data-img-num="3" data-img="img/ab_i9.jpg">
+                    <div class="pai"><img src="img/ab_i9.jpg" alt=""><p class="icon iconfont icon-fangdajing"></p></div>
+                </a></div>
+                <div class="item"><a href="javascript:void(0);" data-img-num="4" data-img="img/ab_i7.jpg">
+                    <div class="pai"><img src="img/ab_i7.jpg" alt=""><p class="icon iconfont icon-fangdajing"></p></div>
+                </a></div>
+                <div class="item"><a href="javascript:void(0);" data-img-num="5" data-img="img/ab_i8.jpg">
+                    <div class="pai"><img src="img/ab_i8.jpg" alt=""><p class="icon iconfont icon-fangdajing"></p></div>
+                </a></div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+<div class="footer">
+	<div class="t pw clearfix">
+		<a href="index.html" class="f-logo"><img src="images/logo3.png" alt=""></a>
+		<a href="#" class="f-oa">登录OA</a>
+	</div>
+	<div class="c pw clearfix">
+		<ul class="f-nav">
+			<li>
+				<a href="about.html">关于我们</a>
+				<a href="about.html?#ab1">星创智融</a>
+                <a href="about.html?#ab2">项目管理中心</a>
+                <a href="about.html?#ab3">领导致辞</a>
+                <a href="about.html?#ab4">发展历程</a>
+                <a href="about.html?#ab5">荣誉资质</a>
+			</li>
+			<li>
+				<a href="news.html">新闻中心</a>
+				<a href="news1.html">公司新闻</a>
+                <a href="news2.html">网站公告</a>
+			</li>
+			<li>
+				<a href="bus.html">业务范围</a>
+				<a href="bus1.html">市政施工</a>
+                <a href="bus2.html">桥梁施工</a>
+                <a href="bus3.html">隧道施工</a>
+                <a href="bus4.html">文保施工</a>
+			</li>
+			<li>
+				<a href="pro.html">项目展示</a>
+				<a href="pro1.html">市政施工</a>
+	            <a href="pro1.html">桥梁施工</a>
+	            <a href="pro1.html">隧道施工</a>
+	            <a href="pro1.html">文保施工</a>
+			</li>
+			<li>
+				<a href="cul.html">企业文化</a>
+				<a href="cul1.html">企业文化</a>
+                <a href="cul2.html">感恩企业</a>
+			</li>
+			<li>
+				<a href="job.html">人力资源</a>
+				<a href="job.html?#job1">用人理念</a>
+                <a href="job.html?#job2">招聘职位</a>
+			</li>
+			<li>
+				<a href="cta.html">联系我们</a>
+				<a href="cta.html?#cta1">联系方式</a>
+                <a href="cta.html?#cta2">投诉建议</a>
+			</li>
+		</ul>
+		
+		<div class="r">
+			<div class="friendship-link">
+	            <p class="s">友情链接<i class="sj sj-t"></i></p>
+	            <div class="k">
+	                <div class="g">
+	                    <a href="#" class="nowti">友情链接1</a>
+	                    <a href="#" class="nowti">友情链接2</a>
+	                    <a href="#" class="nowti">友情链接3</a>
+	                    <a href="#" class="nowti">友情链接4</a>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="f-cta">
+	        	<p><a href="#">ADD&nbsp;&nbsp;-&nbsp;&nbsp;四川成都市高新区天府大道北段环球中心（w1）9-1-1630</a></p>
+	        	<p><a href="mailto:sichuanchaoyue@163.com">E-mail&nbsp;&nbsp;-&nbsp;&nbsp;sichuanchaoyue@163.com</a></p>
+	        </div>
+	        <div class="f-share fib">
+	        	<a href="#" class="ib"><i class="icon iconfont icon-weibo"></i>微博</a>
+	        	<a href="img/ma.jpg" class="ib weixin"><i class="icon iconfont icon-wechat"></i>微信</a>
+	        	<a href="mailto:sichuanchaoyue@163.com" class="ib"><i class="icon iconfont icon-youxiang1"></i>邮箱</a>
+	        </div>
+		</div>
+	</div>
+	<div class="b pw"><div class="f-cop clearfix">copyright @ 四川星创智融股权投资基金管理有限公司&nbsp;&nbsp;&nbsp;&nbsp;川ICP备15106839号<a href="#">网站设计：赛门仕博</a></div></div>
+</div>
+<div class="fixctas">
+	<a href="tel:02888888888" class="na">
+		<p class="icon iconfont icon-dianhua"></p>
+		<div class="b">
+			<p class="tel">028 - 8888 8888</p>
+		</div>
+	</a>
+	<a href="#"><p class="icon iconfont icon-xiazai"></p></a>
+	<a href="javascript:void(0);" id="top"><p class="sj sj-t"></p></a>
+</div>
+
+<script src="js/plugin.js"></script>
+
+<script src="js/page.js"></script>
+<script>
+    $(function(){
+        function hisBox(){
+            var processC = $('.his-list').hasClass('slick-slider');
+            if (w_width > 862 && processC == false) {
+                $('.his-list').slick({
+                    variableWidth: true,
+                    slidesToShow: 4,
+                    slidesToScroll: 4,
+                    infinite: false,
+                    responsive: [
+                    {
+                        breakpoint: 1601,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3
+                        }
+                    },
+                    {
+                        breakpoint: 1201,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                    ]
+                });
+            } else if (w_width <= 862 && processC == true) {
+                $('.his-list').slick('unslick');
+            }else{
+                return;
+            }
+        };
+        hisBox();
+        $(window).resize(function() {
+            hisBox();
+        });
+
+        var maxnum = $('.honor-list .item').length;
+        $('.honor-list').slick({
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            responsive: [{
+                breakpoint: 862,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 482,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+            ]
+        });
+        $(document).on(_click,'.honor-list .item > a',function() { 
+            var num = $(this).attr('data-img-num');
+            openshowImg(num,maxnum);
+        });
+
+        $('.mtv a').bind(_click, function(e) {
+            var hash = $(this).attr('href').split('#')[1];
+            if(hash){
+                e.preventDefault();
+                var w = $menuBox.width();
+                $('html').removeClass('open');
+                $menuBtn.removeClass('active');
+                $('.menuBlack').stop().fadeOut(600);
+                $menuBox.stop(false,false).animate({right:-w+"px"},function(){
+                    $(this).hide();
+                });
+                navItem = 0;
+                $('html,body').animate({scrollTop: $('#' + hash).offset().top - $mtoph}, 800);
+            }
+        });
+
+        $('.tnav a').bind(_click, function(e) {
+            var hash = $(this).attr('href').split('#')[1];
+            if(hash){
+                e.preventDefault();
+                $('html,body').animate({scrollTop: $('#' + hash).offset().top - $mtoph}, 800);
+            }
+        });
+
+        $('.ab-nav a').bind(_click, function(e) {
+            var hash = $(this).attr('href').split('#')[1];
+            if(hash){
+                e.preventDefault();
+                $('html,body').animate({scrollTop: $('#' + hash).offset().top - $mtoph}, 800);
+            }
+        });
+
+        var at = [];
+
+        function turnFix(){
+            var st = $(window).scrollTop();
+            var a = $('#ab1').offset().top - $mtoph;
+            var f = $('.footer').offset().top - w_height;
+            if (st > a) {
+                $('.ab-nav').addClass('fix');
+                if (st > f) {
+                    $('.ab-nav').fadeOut(400);
+                } else {
+                    $('.ab-nav').fadeIn(400);
+                }
+            }else{
+                $('.ab-nav').removeClass('fix');
+            }
+        }
+
+         function changeFix(){
+            var st = $(window).scrollTop();
+            $('.ab').each(function(index) {
+                at[index] = $(this).offset().top - w_height*0.5; 
+            });
+            for(var i=0; i<at.length; i++){
+                if(st>at[i]){
+                    $('.ab-nav a').removeClass('act');
+                    $('.ab-nav a').eq(i).addClass('act');   
+                }
+            }
+        }
+
+        turnFix();
+        changeFix();
+
+        $(window).scroll(function () {
+            turnFix();
+            changeFix();
+        });
+
+    })
+</script>
+</body>
+</html>
