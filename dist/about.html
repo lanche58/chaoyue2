@@ -36,7 +36,7 @@
                 <div class="tnav"></div>
             </li>
             <li><a href="about.html" class="act">关于我们</a>
-                <div class="tnav">
+                <div class="tnav about">
                     <div class="b">
                         <a href="about.html?#ab1">星创智融</a>
                         <a href="about.html?#ab2">项目管理中心</a>
@@ -83,7 +83,7 @@
                 </div>
             </li>
             <li><a href="job.html">人力资源</a>
-                <div class="tnav">
+                <div class="tnav job">
                     <div class="b">
                         <a href="job.html?#job1">用人理念</a>
                         <a href="job.html?#job2">招聘职位</a>
@@ -91,7 +91,7 @@
                 </div>
             </li>
             <li><a href="cta.html">联系我们</a>
-                <div class="tnav">
+                <div class="tnav cta">
                     <div class="b">
                         <a href="cta.html?#cta1">联系方式</a>
                         <a href="cta.html?#cta2">投诉建议</a>
@@ -117,7 +117,7 @@
 <div class="menuBox">
     <dl class="navMobile">
         <dd><a href="index.html">首页</a></dd>
-        <dd><a href="about.html">关于我们</a>
+        <dd class="about"><a href="about.html">关于我们</a>
             <div class="mtv">
                 <a href="about.html?#ab1">星创智融</a>
                 <a href="about.html?#ab2">项目管理中心</a>
@@ -154,13 +154,13 @@
                 <a href="cul2.html">感恩企业</a>
             </div>
         </dd>
-        <dd><a href="job.html">人力资源</a>
+        <dd class="job"><a href="job.html">人力资源</a>
             <div class="mtv">
                 <a href="job.html?#job1">用人理念</a>
                 <a href="job.html?#job2">招聘职位</a>
             </div>
         </dd>
-        <dd><a href="cta.html">联系我们</a>
+        <dd class="cta"><a href="cta.html">联系我们</a>
             <div class="mtv">
                 <a href="cta.html?#cta1">联系方式</a>
                 <a href="cta.html?#cta2">投诉建议</a>
@@ -382,7 +382,7 @@
 	</div>
 	<div class="c pw clearfix">
 		<ul class="f-nav">
-			<li>
+			<li class="about">
 				<a href="about.html">关于我们</a>
 				<a href="about.html?#ab1">星创智融</a>
                 <a href="about.html?#ab2">项目管理中心</a>
@@ -414,12 +414,12 @@
 				<a href="cul1.html">企业文化</a>
                 <a href="cul2.html">感恩企业</a>
 			</li>
-			<li>
+			<li class="job">
 				<a href="job.html">人力资源</a>
 				<a href="job.html?#job1">用人理念</a>
                 <a href="job.html?#job2">招聘职位</a>
 			</li>
-			<li>
+			<li class="cta">
 				<a href="cta.html">联系我们</a>
 				<a href="cta.html?#cta1">联系方式</a>
                 <a href="cta.html?#cta2">投诉建议</a>
@@ -528,7 +528,7 @@
             openshowImg(num,maxnum);
         });
 
-        $('.mtv a').bind(_click, function(e) {
+        $('dd.about .mtv a').bind(_click, function(e) {
             var hash = $(this).attr('href').split('#')[1];
             if(hash){
                 e.preventDefault();
@@ -544,7 +544,15 @@
             }
         });
 
-        $('.tnav a').bind(_click, function(e) {
+        $('.tnav.about a').bind(_click, function(e) {
+            var hash = $(this).attr('href').split('#')[1];
+            if(hash){
+                e.preventDefault();
+                $('html,body').animate({scrollTop: $('#' + hash).offset().top - $mtoph}, 800);
+            }
+        });
+
+        $('.f-nav .about a').bind(_click, function(e) {
             var hash = $(this).attr('href').split('#')[1];
             if(hash){
                 e.preventDefault();
